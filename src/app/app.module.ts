@@ -13,7 +13,8 @@ import { HeroisComponent }        from './herois/herois.component';
 import { HeroiService}            from './heroi.service';
 import { DashboardComponent }     from './dashboard/dashboard.component'
 
-import { AppRoutingModule } from './app-routing.module'
+import { AppRoutingModule } from './app-routing.module';
+import { HeroiSearchComponent } from './heroi-search/heroi-search.component'
 
 
 
@@ -22,7 +23,8 @@ import { AppRoutingModule } from './app-routing.module'
     AppComponent,
     HeroiDetalheComponent,
     HeroisComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroiSearchComponent
     
   ],
   
